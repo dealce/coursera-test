@@ -1,0 +1,115 @@
+body {
+	font-size: 16px;
+	color:  #000000;
+	background-color: #FFFFFF;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+
+/** HEADER **/
+#header-nav {
+	background-color: #A25EBC;
+	border-radius: 0;
+	border: 0;
+	
+}
+
+.navbar-brand {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	float: left;
+	position: relative;
+
+}
+
+.navbar-brand h1 { /*Restaurant name (Food, LLC) */
+	font-family: 'Balsamiq Sans', cursive;
+	color: #000000;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom:  0;
+	line-height: .75;
+	text-align: left;
+
+
+
+	 }
+
+	 .navbar-brand a:hover, .navbar-brand a:focus {
+	 	text-decoration: none;
+	 }
+
+
+
+	 #nav-list {
+	 	margin-top: 0px;
+	 	margin-bottom: 0px;
+	 	border-top: 2px solid #000000;
+	 	
+
+
+	 }
+
+	 #nav-list a {
+	 	color: #000000;
+	 	text-align: center;
+	 	background-color: #E0BFEC;
+	 	border-bottom: 2px solid #000000;
+
+
+	 	
+
+	 }
+
+	 #nav-list a:hover {
+	 	background: #E7E7E7;
+	 }
+
+	 #nav-list a span {
+	 	font-size: 1.3em;
+	 }
+
+	 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	 	border: 1px solid #000000;
+	 }
+
+	.navbar-header button.navbar-toggle {
+		clear: both;
+		margin-top: -35px;
+	}
+
+}
+/**Section**/
+	.row{
+  width: 100%;
+  position: relative;
+}
+
+.container1{
+ top:0px;
+ margin: 15px; 
+ 
+
+}
+
+.item{
+  top: 0;
+  background-color: #D3D3D3;
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid #000;
+  
+
+}
+
+.item p{
+  margin-top: 10px;
+  text-align: center;
+  font-size:100%;
+}
+
+.item-title{
+	text-align: center;
